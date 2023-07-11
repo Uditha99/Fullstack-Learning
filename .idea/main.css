@@ -1,43 +1,14 @@
 .outer{
-    width: 700px;
-    height: 600px;
-    border: 1px solid red;
-    display:flex;
-    justify-content:center;
-/*    justify-content:flex-start;*/
+    width: 500px;
+    height: 500px;
+    border: 1px solid rebeccapurple;
+    position: relative;
 }
 
 .inner{
     width: 100px;
     height: 100px;
-    /*border: 1px solid red;*/
-    border: 1px solid darkolivegreen;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#id1{
-    position: fixed;
-    /*left: 100px;*/
-    /*right: 00px;*/
-    /*right: 50px;*/
-    /*margin-left: 20px;*/
-    right: 0px;
-    bottom: 300px;
-    z-index: 1;
-
-
-}
-
-#id2{
+    background-color: darkolivegreen;
     position: absolute;
-    z-index: 0;
-    left: 0px;
-    bottom: 0px;
-}
-
-#id3{
-    position: sticky;
-    top: 50px;
+    right: 0;
 }
